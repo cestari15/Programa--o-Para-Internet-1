@@ -1,0 +1,14 @@
+{
+  "name": "reajuste-salario",
+  "version": "1.0.0",
+  "description": "Aplicativo para calcular reajuste salarial (Node + Express) - disciplina de ADS",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Rafael Cestari",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

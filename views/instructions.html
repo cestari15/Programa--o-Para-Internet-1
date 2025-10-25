@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Instruções - Reajuste Salarial</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Aplicativo de Reajuste Salarial</h1>
+
+    <p>Informe os parâmetros na URL conforme o exemplo abaixo:</p>
+
+    <pre>http://localhost:3000/?idade=25&sexo=M&salario_base=2000&anoContratacao=2015&matricula=12345</pre>
+
+    <ul>
+      <li><b>idade</b> → inteiro maior que 16</li>
+      <li><b>sexo</b> → M ou F</li>
+      <li><b>salario_base</b> → número real válido</li>
+      <li><b>anoContratacao</b> → inteiro maior que 1960</li>
+      <li><b>matricula</b> → inteiro maior que zero</li>
+    </ul>
+
+    <p><b>Exemplo prático:</b></p>
+    <ul>
+      <li><a href="/?idade=30&sexo=F&salario_base=1800&anoContratacao=2013&matricula=5001">Exemplo 1</a></li>
+      <li><a href="/?idade=55&sexo=M&salario_base=2500&anoContratacao=1995&matricula=9000">Exemplo 2</a></li>
+    </ul>
+  </div>
+</body>
+</html>
