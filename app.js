@@ -107,3 +107,6 @@ app.get('/', (req, res) => {
 });
 
 app.listen(PORT, () => console.log(`Servidor rodando em http://localhost:${PORT}`));
+
+// https://programa-o-para-internet-1.vercel.app/
+// https://github.com/cestari15/Programa--o-Para-Internet-1.git
